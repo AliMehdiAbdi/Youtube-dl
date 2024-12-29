@@ -29,6 +29,20 @@ This project allows you to download YouTube videos along with their thumbnails u
     pip install yt_dlp
     ```
 
+## Netscape Formatted Cookies
+
+1. Install a Browser extension like EditThisCookie or Get cookies.txt
+
+2. Export the cookies for YouTube in the Netscape format and save them as a `.txt` file (e.g., `cookies.txt`).
+
+3. When running the script, provide the path to the cookies file when prompted:
+
+```sh
+Enter the Cookies File Path (leave blank if not applicable): /path/to/cookies.txt
+```
+
+The script will use the provided cookies file to authenticate your session and download the video.
+
 ## Usage
 
 1. Open the terminal and navigate to the project directory.
