@@ -13,16 +13,14 @@ This project allows you to download YouTube videos along with their thumbnails u
 
 - Python 3.x
 - `yt_dlp` library
-- `subprocess` module
-- `re` module
 
 ## Installation
 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/youtube-video-thumbnail-downloader.git
-    cd youtube-video-thumbnail-downloader
+    git clone https://github.com/AliMehdiAbdi/YouTube-dl.git
+    cd YouTube-dl
     ```
 
 2. Install the required Python packages:
