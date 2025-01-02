@@ -61,7 +61,7 @@ def get_formats(url, cookies_path=None):
 
 def main():
     url = input("Enter the YouTube video URL: ")
-    output_path = "~/youtube/"
+    output_path = "youtube/"
     cookies_path = input("Enter the Cookies File Path (leave blank if not applicable): ")
     cookies_path = cookies_path if cookies_path else None
     
